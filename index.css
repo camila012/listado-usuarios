@@ -1,0 +1,102 @@
+
+
+.list-group{
+  font-family: sans-serif;
+  font-size: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  
+  
+}
+.list-group a{
+  background-color: rgb(5, 4, 7) !important;
+  color: #fff;
+}
+h5{
+  color: rgba(224, 111, 187, 0.8);
+}
+a{
+  color:rgba(224, 111, 187, 0.8);
+}
+a:link{
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(41, 21, 95);
+  cursor: pointer;
+}
+
+.container{
+  justify-content: center !important;
+}
+footer {
+  background-color:rgba(0,0,0,0.81) !important;
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 40px;
+  border-radius: 10px;
+  
+  
+}
+
+footer p {
+  
+  font-size: 10px;
+  font-family: sans-serif;
+  
+}
+
+.footer-social{
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+}
+.contacto{
+  border-radius: 9px !important;
+  
+}
+h3{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center
+}
+
+
+form{
+  color: rgba(224, 111, 187, 0.8);
+  background-color: #000;
+  
+}
+.form-control{
+  background-color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+.contenido{
+  background-color: black;
+  color: #fff;
+  
+}
+
+h1{
+  background-color: rgb(5, 1, 10);
+  padding-top: 10px;
+  margin-top: 200px;
+  color: rgba(150, 12, 104, 0.8);
+  border-radius: 10px;
+}
+button{
+  background-color: rgba(224, 111, 187, 0.8) !important;
+}
+
+.envia{
+  background-color: rgb(41, 21, 95);
+  border-color: rgba(224, 111, 187, 0.8);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

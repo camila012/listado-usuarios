@@ -1,0 +1,132 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Comentario</title>
+  <link rel="icon" type="image/png" href="./img/icono.jpg">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body
+background="./img/fondo.gif" class="img-fluid">
+<!--Barra de Navegacion-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:rgba(0,0,0,0.85) !important;">
+  <a class="navbar-brand" style="color: #fff;"><img src="./img/icono.jpg" width="50" height="50" alt="" loading="lazy">Lista Usuarios</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="color: rgb(151, 88, 142);"href="./">Inicio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--comentarios-->
+<form action="" name="formulario" method="get" >
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="@gmail.com" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Ciudad</label>
+    <select class="form-control" name="ciudad" id="exampleFormControlSelect1">
+      <option></option>
+      <option>Medellin</option>
+      <option>Bogotá</option>
+      <option>Barranquilla</option>
+      <option>Neiva</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Comentario</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" cols="40" name="comentario" rows="3"></textarea>
+  </div>
+  <input type="submit" id="enviar" name="btn" value="Enviar" class="envia">
+</form>
+
+
+<!--Pie de Pagina-->
+
+<footer>
+  <div class="container justify-content-center">
+    <div class="row">
+      <div class="col-sm-3 justify-content-center">
+        <div class="footer-widget">
+          <h3 class="text-cente">Redes Sociales</h3>
+          <div class="footer-widget-content">
+            <div class="footer-social">
+              <ul class="">
+                <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-cente">
+        <div class="footer-widget">
+          <h3>Contacto</h3>
+          <div class="footer-widget-content">
+            <div>
+              <div>
+                <a href="./contacto.html"><img class="contacto" src="./img/contacto.gif" width="50"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+              
+      <div class="col-sm-3">
+        <div class="footer-widget">
+          <h3>Horario</h3>
+          <div class="footer-widget-content">
+            <div class="open-time ">
+              <ul class="opening-time">
+                <li><span><i class="fa fa-times"></i></span><p class="clock-time"><strong>Sabado y Domingo:</strong> Cerrado</p>
+                </li>
+                <li><span><i class="fa fa-check"></i></span><p><strong>Lunes y Martes:</strong> 8am - 12am</p></li>
+                <li><span><i class="fa fa-check"></i></span><p><strong>Miercoles:</strong> 12pm-12am</p></li>
+                <li><span><i class="fa fa-check"></i></span><p><strong>Jueves y Viernes:</strong> 7am - 1am</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="footer-widget">
+          <h3>COLOMBIA</h3>
+          <div class="footer-widget-content">
+            <div class="images-gellary">
+              <ul>
+                <li><a href="#"><img src="./img/bandera.png" width="50"></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+<footer>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
